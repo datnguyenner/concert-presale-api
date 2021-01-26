@@ -22,7 +22,6 @@ app.get('/documents', async (req, res) => {
    } catch(e){
        res.status(500).json({message: 'unable to parse data'})
    }
-   
 });
 
 const PORT = process.env.PORT || 3000;
